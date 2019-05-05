@@ -1,5 +1,5 @@
-- [ ] Fork on Github
-- [ ] Update gatsby conf
-- [ ] Update bio
+- [x] Fork on Github
+- [x] Update gatsby conf
+- [x] Update bio
 - [ ] Remove blog list
 - [ ] Deploy to Netlify

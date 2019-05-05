@@ -38,9 +38,13 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
+              I'm an Engineering Manager with a love for building great products
+              and even greater teams.
+              <br />
+              Currently taking a sabbatical year to travel across Europe and
+              learn about AI, Machine Learning and Deep Learning. I'll be back
+              in September 2019!
+              <br />
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
               </a>
