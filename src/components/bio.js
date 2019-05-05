@@ -8,7 +8,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
+import { FaTwitter, FaLinkedin } from "react-icons/fa"
 import { rhythm } from "../utils/typography"
 
 function Bio() {
@@ -45,8 +45,17 @@ function Bio() {
               learn about AI, Machine Learning and Deep Learning. I'll be back
               in September 2019!
               <br />
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                style={{ textDecoration: "none", boxShadow: "none" }}
+              >
+                <FaTwitter color="black" />
+              </a>
+              <a
+                href={`https://linkedin.com/in/${social.linkedIn}`}
+                style={{ textDecoration: `none`, boxShadow: "none" }}
+              >
+                <FaLinkedin color="black" />
               </a>
             </p>
           </div>
@@ -70,6 +79,7 @@ const bioQuery = graphql`
         author
         social {
           twitter
+          linkedIn
         }
       }
     }
