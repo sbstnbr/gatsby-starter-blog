@@ -2,4 +2,5 @@
 - [x] Update gatsby conf
 - [x] Update bio
 - [x] Remove blog list
-- [ ] Deploy to Netlify
+- [x] Deploy to Netlify
+- [x] Setup custom domain
