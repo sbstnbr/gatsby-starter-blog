@@ -5,4 +5,5 @@
 - [x] Deploy to Netlify
 - [x] Setup custom domain
 - [x] Add social media icons
-- [ ] Remove footer
+- [x] Remove footer
+- [x] Add GA
