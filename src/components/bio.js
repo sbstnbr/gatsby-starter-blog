@@ -48,12 +48,14 @@ function Bio() {
               <a
                 href={`https://twitter.com/${social.twitter}`}
                 style={{ textDecoration: "none", boxShadow: "none" }}
+                aria-label="Twitter"
               >
                 <FaTwitter color="black" />
               </a>
               <a
                 href={`https://linkedin.com/in/${social.linkedIn}`}
                 style={{ textDecoration: `none`, boxShadow: "none" }}
+                aria-label="LinkedIn"
               >
                 <FaLinkedin color="black" />
               </a>
