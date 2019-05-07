@@ -8,8 +8,9 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import { FaTwitter, FaLinkedin } from "react-icons/fa"
 import { rhythm } from "../utils/typography"
+import Twitter from "./social/twitter"
+import LinkedIn from "./social/linkedin"
 
 function Bio() {
   return (
@@ -45,20 +46,14 @@ function Bio() {
               learn about AI, Machine Learning and Deep Learning. I'll be back
               in September 2019!
               <br />
-              <a
-                href={`https://twitter.com/${social.twitter}`}
-                style={{ textDecoration: "none", boxShadow: "none" }}
-                aria-label="Twitter"
-              >
-                <FaTwitter color="black" />
-              </a>
-              <a
-                href={`https://linkedin.com/in/${social.linkedIn}`}
-                style={{ textDecoration: `none`, boxShadow: "none" }}
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin color="black" />
-              </a>
+              <Twitter
+                url={`https://twitter.com/${social.twitter}`}
+                label="Twitter"
+              />
+              <LinkedIn
+                url={`https://linkedin.com/in/${social.linkedIn}`}
+                label="LinkedIn"
+              />
             </p>
           </div>
         )
